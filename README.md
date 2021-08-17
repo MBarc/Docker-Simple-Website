@@ -9,7 +9,7 @@ Step 2: Add your html (the html could include css and js) to the html directory.
 Step 3: In your local terminal, navigate to the directory that contains the Dockerfile. <br>
 Step 4: Build the docker image.<br>
 
-> docker build -t simplewebsiteimage
+> docker build -t simplewebsiteimage .
 
 Step 5: Run the docker container.
 
