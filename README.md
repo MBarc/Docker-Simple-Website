@@ -6,6 +6,9 @@ Note: This custom nginx container is designed to hold an html-only website.
 
 Step 1: Download this repository. <br>
 Step 2: Add your html (the html could include css and js) to the html directory.<br>
+
+  **Note: If you have an index.html file, this file will appear as the default landing page for your website.**
+
 Step 3: In your local terminal, navigate to the directory that contains the Dockerfile. <br>
 Step 4: Build the docker image.<br>
 
@@ -14,3 +17,7 @@ Step 4: Build the docker image.<br>
 Step 5: Run the docker container.
 
 > docker run -dt -p 80:80 --name website simplewebsiteimage
+
+Step 6: Restart the container
+
+> docker restart website
